@@ -6,7 +6,9 @@ public class BoardPiece : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private GameManager gameManager;
-    [SerializeField] private Sprite circle;
+    [SerializeField] private Sprite square;
+    [SerializeField] private Sprite white;
+    [SerializeField] private Sprite black;
     [SerializeField] private int row;
     [SerializeField] private int column;
 
@@ -33,23 +35,22 @@ public class BoardPiece : MonoBehaviour
     public void SetBlack()
     {
         if (spriteRenderer == null) return;
-        spriteRenderer.sprite = circle;
-        gameObject.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
-        spriteRenderer.color = new Color(0f, 0f, 0f, 1f);
+        spriteRenderer.sprite = black;
+        spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
     }
 
     public void SetWhite()
     {
         if (spriteRenderer == null) return;
-        spriteRenderer.sprite = circle;
-        gameObject.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
+        spriteRenderer.sprite = white;
         spriteRenderer.color = new Color(1f, 1f, 1f, 1f);
     }
 
     public void SetValidSquare()
     {
         if (spriteRenderer == null) return;
-        spriteRenderer.color = new Color(0f, 1f, 0f, .4f);
+        spriteRenderer.sprite = square;
+        spriteRenderer.color = new Color(0f, .6f, 0f, .6f);
     }
 
     public void SetUnvalidSquare()

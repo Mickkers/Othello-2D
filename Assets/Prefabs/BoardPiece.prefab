@@ -124,6 +124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9a25d86e03487f4d8617958d314e76c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circle: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  square: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  white: {fileID: 1871925556, guid: bb245c60cc0001245b3363c56468105e, type: 3}
+  black: {fileID: -1617782396, guid: bb245c60cc0001245b3363c56468105e, type: 3}
   row: 0
   column: 0
