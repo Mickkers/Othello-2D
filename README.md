@@ -1,6 +1,6 @@
 # Othello-2D
 
-<img src="https://raw.githubusercontent.com/Mickkers/Mickkers/main/OthelloDemo.gif" height='250'/>
+<img src="https://raw.githubusercontent.com/Mickkers/Mickkers/main/OthelloGif.gif" height='250'/>
 
 Take turns placing disks. The objective is to have the majority of discs flipped to display your color at the end of the game, which is achieved by trapping your opponent’s discs between two of your own.
 
@@ -8,6 +8,7 @@ Take turns placing disks. The objective is to have the majority of discs flipped
 
 ## Tools and Assets
 - Made using Unity Editor 2021.3.29f1
+- Board and Piece art from [Pixel Checkers by Dani Maccari](https://dani-maccari.itch.io/pixel-checkers)
 
 ## Features
 - Automatically scores players
